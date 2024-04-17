@@ -1,0 +1,40 @@
+body {
+background-color: rgb(219, 219, 157);
+}
+.content{
+    width: 10%;
+}
+
+.head {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    width: 1600px;
+    justify-content: space-evenly;
+
+}
+.head0 {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    width: 12000px;
+    justify-content: space-evenly;
+    padding-right: 500px;
+
+    font-family: monospace;
+
+    color: rgb(107, 103, 103);
+
+}
+
+
+.photo{
+    display: flex;
+    padding-top: 1000px;
+    padding-right: 2000px;
+}
+
