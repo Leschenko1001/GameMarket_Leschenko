@@ -1,7 +1,33 @@
 body{
-    background-color: rgb(241, 224, 201);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: Roboto;
+    background-color: rgb(233, 241, 241);
+    display: flex;
+    justify-content:center ;
 }
-content{
+
+
+::content{
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title{
+    width: auto;
+    padding: 10px;
+    margin-top: 20px;
+
+   background-color: rgb(255, 51, 51);
+   border-radius: 5px;
+   box-shadow: 0 4px 8px 0  rgb(0, 0, 0),  0 6px 20px 0 rgb(0, 0, 0)
+
     
 
-}
+
+}  
