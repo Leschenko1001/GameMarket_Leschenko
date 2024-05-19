@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1, 100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 
-    font-family: 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
+    font-family: Roboto;
+    background-color: #f1f1f1;
     display: flex;
     justify-content: center;
 }
@@ -22,10 +24,11 @@ content {
     padding: 10px;
     margin-top: 20px;
 
-    background: rgb(253,48,48);
+    background: rgb(253, 48, 48);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: azure;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+    color: white;
     text-transform: uppercase;
     font-size: 20px;
     text-align: center;
@@ -34,11 +37,9 @@ content {
 }
 
 .items {
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .item {
@@ -52,19 +53,23 @@ content {
     border: 1px solid rgb(194, 194, 194);
     border-radius: 5px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+/* блок назви товару */
 .item-title {
     font-weight: bold;
 }
 
+/* Блок зображення товару */
 .item-image {
     height: 200px;
 }
 
+/* Блок з оплатою частинами */
 .parts-pay {
     margin-top: 30px;
     display: flex;
@@ -73,10 +78,12 @@ content {
     justify-content: center;
 }
 
+/* Зображення, які знаходяться в блоці оплати частинами */
 .parts-pay img {
     height: 24px;
 }
 
+/* Блок ціни */
 .price {
     border: 1px solid rgb(194, 194, 194);
     border-radius: 5px;
@@ -105,6 +112,7 @@ content {
     font-size: 14px;
 }
 
+/* Блок бонусної ціни */
 .bonus {
     background: rgb(253, 48, 48);
     color: white;
@@ -119,29 +127,31 @@ content {
 }
 
 .bonus div:last-child {
-    font-size: 24x;
+    font-size: 24px;
 }
 
-.bonus div:last-child sup {
+.bonus div:last-child sup{
     font-size: 14px;
 }
 
-.contacts p {
+/* Блок контактів*/
+.contacts p{
     margin: 3px;
-
 }
 
-.contactsp:first-child {
+.contacts p:first-child{
     font-weight: bold;
     letter-spacing: 1px;
 }
 
-.contactsp:last-child {
+.contacts p:last-child{
     border-left: 3px solid rgb(253, 48, 48);
 }
 
+/* Блок інформації */ 
 .info {
     font-size: 9px;
     text-align: justify;
-    color: rgb(120,120,120);
+    color: rgb(120, 120, 120);
+    
 }
