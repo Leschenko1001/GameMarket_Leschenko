@@ -18,7 +18,7 @@ content {
     justify-content: center;
     gap: 10px;
 }
-
+/*Блок заголовку*/
 .title {
     width: auto;
     padding: 10px;
@@ -35,13 +35,13 @@ content {
     font-weight: bold;
     letter-spacing: 3px;
 }
-
+/*Блок товарів*/
 .items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+/*Блок окремого товару*/
 .item {
     min-width: 200px;
     min-height: 400px;
