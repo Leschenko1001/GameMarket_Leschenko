@@ -1,56 +1,52 @@
 body {
-    background: linear-gradient(to right, rgb(210, 146, 230), rgb(191, 166, 194));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-    margin: 10;
+    background: linear-gradient(to right, rgb(255, 140, 207), rgba(255, 255, 255, 1));
 }
 .content{
-    width: 10%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: relative;
+    align-items: right;
+    text-align: right;
+    position: relative; 
 }
+
 .overlay {
     position: absolute;
-    top: 0.6;
-    left: 0.5;
+    top: 1;
+    left: 1;
     z-index: 1; 
-    background-color: rgba(223, 170, 223, 0.7); }
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.photo{
+        display: flex;
+        padding-top: 10px;
+        padding-right: 500px;
+}
+
+
 .buttons {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 1px;
+    margin-right: 230px;
 }
 .btn {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #aa73b6;
-    color: rgb(253, 249, 253);
+    padding: 10px 15px;
+    background-color: #af4c93;
+    color: white;
     text-align: center;
     text-decoration: none;
     font-size: 70px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
-   }
-  .photo{
-    display: flex;
-    padding-top: 10px;
-    padding-right: 500px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  .btn:hover {
+    background-color: #7b1b5d;
 }
-
-.head {
-    height: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-    width: 1600px;
-    justify-content: space-evenly;
-
+.btn:active {
+    background-color: #3e0e2e;
 }
