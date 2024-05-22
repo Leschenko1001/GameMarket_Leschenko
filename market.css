@@ -18,8 +18,13 @@ content {
     justify-content: center;
     gap: 10px;
 }
+<<<<<<< Updated upstream
 /*Блок заголовку*/
 .title {
+=======
+/* блок заголовку */
+.title{
+>>>>>>> Stashed changes
     width: auto;
     padding: 10px;
     margin-top: 20px;
@@ -28,6 +33,7 @@ content {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
+<<<<<<< Updated upstream
     color: white;
     text-transform: uppercase;
     font-size: 20px;
@@ -43,11 +49,29 @@ content {
 }
 /*Блок окремого товару*/
 .item {
+=======
+    color white;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold
+    letter-spacing 3px;
+}
+/*блок товарів*/
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+/* Блое окремого товару*/
+.item{
+>>>>>>> Stashed changes
     min-width: 200px;
     min-height: 400px;
     margin-bottom: 10px;
     padding: 10px;
 
+<<<<<<< Updated upstream
     background-color: #ffffff;
 
     border: 1px solid rgb(194, 194, 194);
@@ -154,4 +178,9 @@ content {
     text-align: justify;
     color: rgb(120, 120, 120);
     
+=======
+    background-color: rgb(243, 253, 253);
+
+    border: 1px solid ;
+>>>>>>> Stashed changes
 }
